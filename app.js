@@ -4,6 +4,8 @@
 
         $('#boton-ventana').on('click', function () {
         $('#ventana-modal').modal()
+        $('#modal').modal('toggle');
+           
 
         });
     });
@@ -47,5 +49,6 @@
 
         });
     });
+
 }());
 

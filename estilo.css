@@ -153,11 +153,13 @@ img {
 /* despliegue del modal */
 
 .modal-content {
+    border: none;
     width: 100%;
     max-width: 600px;
     padding: 20px;
     background-color: white;
-    border-radius: 4px;
+    opacity: 0.9;
+    border-radius: 20px;
 }
 
 .modal-header h2 {
@@ -183,6 +185,26 @@ img {
 .modal-body img {
     border-radius:40px;
 }
+
+
+
+/* Close */
+.close {
+    border: none;
+    font-family: 'roboto condensed', sans-serif;
+    font-size: medium;
+    color: orangered;
+    height: 40px;
+    width: 40px;
+    margin: 1em;
+}
+
+    .close:hover {
+        background: #f6a441;
+        outline: none;
+        box-shadow: 0 4px #cecece;
+        top: 2px;
+    }
 
 /* Fotos carrusel */
 .slide {
@@ -353,11 +375,13 @@ ul, li {
 .menu {
     text-align: center;
     margin: 20px;
+    font-size: 25px;
 }
 
     .menu li {
         display: inline-block;
-        text-align: center; 
+        text-align: center;
+        font-size: 25px;
     }
 /* Fin Slider fotos marcha */
 
