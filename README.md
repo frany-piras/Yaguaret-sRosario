@@ -1,2 +1,2 @@
-# Yaguaret-sRosario
-Pagína en construcción pensada para uso de celular
+# YaguaretesRosario
+Pagína en construcción pensada para uso de celular como soporte popular.
