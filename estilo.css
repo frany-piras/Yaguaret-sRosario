@@ -114,36 +114,35 @@ img {
 .boton boton-primary {
     width: inherit;
     height: inherit;
-    border-radius: 40px;
+    border-radius: 60px;
     object-fit: cover;
-}
+ }
 
 
 .boton-primary {
     border: none;
-    width: inherit;
-    height: inherit;
-    border-radius: 9px;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
     object-fit: cover;
     color: #fff;
     font-family: 'roboto condensed';
     font-size: large;
+    margin:-7px;
     cursor: pointer;
-    background-color: orangered;
+    background-color:orange;
 }
 
     /* Botón cambio de color */
     .boton-primary:hover {
         background: #f6a441;
         outline: none;
-        box-shadow: 0 4px #cecece;
         top: 2px;
     }
 
     .boton-primary:active {
         background: #f6a441;
         outline: none;
-        box-shadow: 0 0 #cecece;
         top: 6px;
     }
 
@@ -554,18 +553,32 @@ ul, li {
     }
 /* Fin Slider*/
 
+/* Video Encuentro*/
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
 
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 /* Formulario */
 
 /* Encabezado formulario */
 h1 {
-    color: #c84b00;
-    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+    color: #ff6d17;
+    text-shadow: 2px 0px 0 rgba(0,0,0,0.4); /* sobra texto */
     padding-top: 70px;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    font-family: 'roboto condensed', sans-serif;
+    font-family: 'roboto condensed';
     margin: 0px;
 }
 
@@ -700,21 +713,21 @@ input:focus, textarea:focus {
 
 .btn {
     border: none;
-    font-family: 'roboto condensed', sans-serif;
-    font-size: 18px;
-    width: 200px;
-    height: 48px;
+    font-family: 'roboto condensed';
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
     color: #fff;
     background: #c84b00;
     cursor: pointer;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 100;
     position: relative;
     outline: none;
-    box-shadow: 0 5px #cecece; /* sombra */
-    border-radius: 20px; /* redondeo de botón */
+    box-shadow: 0 2px #cecece; /* sombra */
+    border-radius: 10px; /* redondeo de botón */
     float: right;
-    margin-right: 6px;
+    margin-right: 3px;
 }
 
     .btn:hover {
@@ -728,7 +741,7 @@ input:focus, textarea:focus {
         background: #fff;
         outline: none;
         box-shadow: 0 0 #cecece;
-        top: 6px;
+        top: 3px;
     }
 
 .flat {
@@ -829,7 +842,7 @@ input:focus, textarea:focus {
 }
 
 
-/* Modal */
+/* Modal viejo, dejo por las dudas
 #modal {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -859,3 +872,4 @@ input:focus, textarea:focus {
         #mostrar-modal + label:hover {
             background: #38678f;
         }
+*/
